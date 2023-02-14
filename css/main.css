@@ -2,22 +2,29 @@
     display: none;
 }
 
-#container {
+.container {
+    width: 1200px;
     margin: 0 auto;
 }
 
+/* 1. Header/Nav */
+
 #main-header {
-    position: sticky;
+    
     top: 0px;
     height: 90px;
     background-color: #00334E;
+    
+}
+
+#header-nav {
+    grid-column: 3/11;
 }
 
 #header-nav ul {
     display: flex;
-    justify-content:center;
-    align-items: center;
-    margin: 0;
+    justify-content:space-between;
+    margin: 0px;
     padding: 0;
     list-style: none;
     
@@ -32,9 +39,52 @@
 #header-nav a {
     text-decoration: none;
     color: white;
+    font-family: 'Fredoka One', cursive;
 }
 
-img {
-    width: 100px;
-    height: 100px;
+.logo {
+    position: relative;
+    width: 110px;
+    height: 110px;
+    z-index: 1;
+}
+
+
+#tag-line {
+    grid-column: 3/11;
+    grid-row: 2/3;
+}
+
+.grid {
+    display: grid;
+    padding-right: 15px;
+    grid-template-columns: repeat(12, 70px);
+    grid-column-gap: 30px;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#gallery1 {
+    width: 32%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h2 {
+    display: block;
+    text-align: center;
+}
+
+.photo h3 {
+    font-size: 1.2em;
+}
+
+.photo p {
+    font-size: 1em;
+    margin-top: 5px;
 }
