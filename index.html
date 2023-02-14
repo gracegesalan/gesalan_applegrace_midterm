@@ -6,23 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Swerve - Flavored Milk Drink </title>
     
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Henny+Penny&family=Mate&family=Noto+Serif+JP&display=swap" rel="stylesheet">
+
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
    <h1 class="hidden">Swerve - Flavored Milk Drink</h1>
-   <div id="container">
-        <header id="main-header">
+   <div class="container">
+        <header id="main-header" class="grid">
             <nav id="header-nav">
                 <ul>
                     <li><a href="#">HOME</a></li>
                     <li><a href="#">PRODUCTS</a></li>
-                    <li><img src="images/swerve_logo.svg" alt="Swerve Logo"></li>
+                    <li><img class="logo" src="images/swerve_logo.svg" alt="Swerve Logo"></li>
                     <li><a href="#">BLOG</a></li>
                     <li><a href="#">ABOUT US</a></li>
                 </ul>       
-             </nav>
+            </nav>
         </header>
-   </div>
+        
+        <main>
+            <section class="grid" id="hero">
+                <h2 id="tag-line">The Best Milk Deserves the Best Can</h2>
+                <img src="images/hero_image.jpg" alt="Different flavors of Swerve Milk drink">
+            </section>
+
+            <section id="gallery" class="grid">
+                    <h2>WE WORK HARD TO GIVE YOU THE BEST</h2>
+                    <div id="gallery1">
+                        <img src="images/cows.jpg" alt="Photo of cows">
+                        <h3>Full Manufacture</h3>
+                        <p>Inspiration drawn from fresh dairy</p>
+                    </div>
+                    <div id="gallery2">
+                        <img src="images/milk.jpg" alt="Photo of milk">
+                        <h3>Perfect Taste</h3>
+                        <p>Milk drink with a fresh and modern take</p>
+                    </div>
+                    <div id="gallery3">
+                        <img src="images/milk_bottle.jpg" alt="Photo of milk">
+                        <h3>Let's Connect</h3>
+                        <p>The brand's signature is undivided attention to detail</p>
+                    </div>
+            </section>
+        </main>
+    </div>
 </body>
 </html>
