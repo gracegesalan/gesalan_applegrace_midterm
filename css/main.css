@@ -39,7 +39,8 @@
 #header-nav a {
     text-decoration: none;
     color: white;
-    font-family: 'Fredoka One', cursive;
+    font-family: 'Azeret Mono', monospace;
+    letter-spacing: 2px;
 }
 
 .logo {
@@ -56,19 +57,24 @@
     display: inline-block;
 }
 
+#button-hero {
+    padding: 5px 26px;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .button {
+    position: relative;
     font-size: 18px;
     border-radius: 10px;
     background-color: #5588a3;
     border: none;
     color: white;
     cursor: pointer;
-    padding: 5px 26px;
-    position: relative;
-    z-index: 2;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    font-family: 'Ribeye', cursive;
 }
 
 #tag-line {
@@ -88,27 +94,58 @@
     grid-column-gap: 30px;
 }
 
-#gallery {
-    display: grid;
-    padding: 20px;
-    justify-content: space-between;
-    align-items: center;
-}
+
 
 
 h2 {
     display: block;
-    font-size: 35px;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 4px;
     text-align: center;
     grid-column: 3/11;
     font-family: 'Ribeye', cursive;
+    font-size: 24px;
+    margin-bottom: 20px;
 }
 
-.photo h3 {
-    font-size: 1.2em;
-}
 
-.photo p {
-    font-size: 1em;
-    margin-top: 5px;
-}
+
+/* 3. The Swerve Milk drink */
+
+#gallery {
+    background-color: #563c50;
+    text-align: center;
+    padding: 0;
+  }
+  
+  .photo-container {
+    background-color: #ffffff;
+    padding: 20px;
+    display: inline-block;
+  }
+  
+  .photo-row {
+    display: grid;
+    justify-content: space-between;
+  }
+  
+  .photo-item {
+    margin: 10px;
+    
+    
+  }
+  
+  h3 {
+    color: white;
+    letter-spacing: 3px;
+    font-family: 'Ribeye', cursive;
+  }
+  
+  .photo-item p {
+    font-size: 14px;
+    color: white;
+    line-height: 1.5;
+    margin: 10px 0;
+    font-family: 'Cherry Swash', cursive;
+  }
