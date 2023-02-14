@@ -49,10 +49,36 @@
     z-index: 1;
 }
 
+/* 2. Hero */
+
+#hero {
+    position: relative;
+    display: inline-block;
+}
+
+.button {
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: #5588a3;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 5px 26px;
+    position: relative;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 #tag-line {
-    grid-column: 3/11;
-    grid-row: 2/3;
+    font-size: 65px;
+    color:#00334e ;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Henny Penny', cursive;
 }
 
 .grid {
@@ -63,21 +89,19 @@
 }
 
 #gallery {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    padding: 20px;
     justify-content: space-between;
     align-items: center;
 }
 
-#gallery1 {
-    width: 32%;
-    margin-bottom: 30px;
-    text-align: center;
-}
 
 h2 {
     display: block;
+    font-size: 35px;
     text-align: center;
+    grid-column: 3/11;
+    font-family: 'Ribeye', cursive;
 }
 
 .photo h3 {
