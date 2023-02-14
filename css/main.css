@@ -1,3 +1,40 @@
 .hidden {
     display: none;
 }
+
+#container {
+    margin: 0 auto;
+}
+
+#main-header {
+    position: sticky;
+    top: 0px;
+    height: 90px;
+    background-color: #00334E;
+}
+
+#header-nav ul {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+#header-nav li {
+    display: inline-block;
+    padding: 1rem;
+   
+}
+
+#header-nav a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
