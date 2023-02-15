@@ -206,3 +206,22 @@ h2 {
   #video-place {
     background-color: #5588A3;
   }
+
+#the-video {
+  padding-top: 50px;
+  padding-left: 15px;
+  padding-bottom: 50px;
+  width: 474px;
+  height: 267px;
+}
+
+#unique {
+  grid-column: 7/-1;
+  padding-top: 40px;
+  letter-spacing: 4px;
+}
+
+#best {
+  grid-column: 7/11;
+  
+}
