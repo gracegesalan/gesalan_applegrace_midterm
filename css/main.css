@@ -10,7 +10,8 @@
 /* 1. Header/Nav */
 
 #main-header {
-    /* position: sticky; */
+    position: sticky;
+    z-index: 99999;
     top: 0px;
     height: 90px;
     background-color: #00334E;
@@ -154,12 +155,13 @@ h2 {
 
 
   #gallery1 {
-    grid-column: 2/3;
+    grid-column: 3/4;
     
   }
 
   #gallery2 {
-    grid-column: 6/7;
+    margin-right: 40px;
+    grid-column: 7/8;
     padding-left: 15px;
   }
 
