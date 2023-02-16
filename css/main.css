@@ -5,6 +5,8 @@
 .container {
     width: 1200px;
     margin: 0 auto;
+    
+    display: grid;
 }
 
 /* 1. Header/Nav */
@@ -387,6 +389,13 @@ h2 {
   height: 210px;
 }
 
+#footer-con p {
+  color: white;
+  text-align: center;
+  margin-top: 35px;
+  letter-spacing: 2px;
+}
+
 #socials {
   display: inline-block;
   list-style: none;
@@ -433,49 +442,53 @@ h2 {
   color: #FFA07A;
 }
 
-/* 10. Contact Us */
+/* Contact Form New */
 
-#contactphoto {
-  height: 373px;
-}
-
-#contactfill {
+#contact-form {
   background-color: #5588A3;
-  height: 908px;
-  grid-column: 5/8;
-  margin: 0;
+  height: 800px;
 }
 
-#contactfill form {
+#contact-form form {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  grid-column: 4/10;
 }
 
-
-#contactfill h2 {
-  font-size: 40px;
-}
-
-
-.boxform {
-  border-radius: 8px;
-  border: none;
-}
-
-
-#nav-footer ul li  a:hover {
-  color:#FFA07A
-}
-
-
-#footer-con p {
+#contact-form h2 {
   color: white;
-  text-align: center;
-  margin-top: 35px;
-  letter-spacing: 2px;
+  font-family: 'Ribeye', cursive;
+  font-size: 45px;
+  letter-spacing: 5px;
+  
 }
 
-#submit {
-  background-color: #D9D78D;
+#contact-form input, textarea {
+  padding: 0;
+  border: none;
+  border-radius:  5px;
+  background-color: #f7f7f7;
+  margin-bottom: 15px;
+  font: inherit;
 }
+
+#contact-form textarea {
+  height: 300px;
+}
+
+#contact-form label {
+  color: white;
+  font-size: 20px;
+  font-family: 'Cherry Swash', cursive;
+}
+
+#contact-form input[type="submit"] {
+  width: 272px;
+  padding: 16px 32px;
+  background-color: #D9D78D;
+  color: #00334e;
+  border: none;
+  
+}
+
+

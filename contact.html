@@ -20,7 +20,7 @@
         <header id="main-header" class="grid">
             <nav id="header-nav">
                 <ul>
-                    <li><a href="#">HOME</a></li>
+                    <li><a href="index.html">HOME</a></li>
                     <li><a href="#">PRODUCTS</a></li>
                     <li><img class="logo" src="images/swerve_logo.svg" alt="Swerve Logo"></li>
                     <li><a href="#">CONTACT US</a></li>
@@ -34,18 +34,22 @@
                 <img src="images/swerve_cans.jpg" alt="photo of swerve cans">
             </section>
 
-            <section id="contactfill">
-                <h2>We Value your Opinion</h2>
-                <form action="email.php" method="POST" enctype="text/plain">
-                    
-                    <input name="fullName" type="text" required placeholder="Name" class="boxform">
-                    <input name="contactInfo" type="text" required placeholder="Email" class="boxform">
-                    <input name="subject" type="text" required placeholder="Subject" class="boxform">
-                    <textarea name="msg" placeholder="Message" class="boxform"></textarea>
-                    <input name="submit" type="submit" value="Submit" id="submit" class="boxform">
-                </form>
+            <section id="contact-form" class="grid">
                 
-            </section>  
+                <form action="email.php" method="POST" enctype="text/plain">
+                    <h2>We Value your Opinion</h2>
+                    <label> Name</label>
+                    <input name="firstName" type="text" placeholder="Name">
+                    <label>Email</label>
+                    <input name="email" type="text" placeholder="Email">
+                    <label>Subject</label>
+                    <input name="subject" type="text" required placeholder="Subject">
+                    <label>Message
+                    </label>
+                    <textarea name="msg" placeholder="Message"></textarea>
+                    <input name="submit" type="submit" value="SUBMIT">
+                </form>
+            </section>
 
         </main>
 
