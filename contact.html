@@ -34,15 +34,15 @@
                 <img src="images/swerve_cans.jpg" alt="photo of swerve cans">
             </section>
 
-            <section id="contactfill" class="grid">
+            <section id="contactfill">
                 <h2>We Value your Opinion</h2>
-                <form id="theform" action="email.php" method="POST" enctype="text/plain">
+                <form action="email.php" method="POST" enctype="text/plain">
                     
-                    <input id="name" name="fullName" type="text" required placeholder="Full Last Name" class="boxform">
-                    <input id="email" name="contactInfo" type="text" required placeholder="Email" class="boxform">
-                    <input id="subject" name="subject" type="text" required placeholder="Subject" class="boxform">
-                    <textarea id="message" name="msg" placeholder="White your comments here" class="boxform"></textarea>
-                    <input name="submit" type="submit" value="Send" class="boxform">
+                    <input name="fullName" type="text" required placeholder="Name" class="boxform">
+                    <input name="contactInfo" type="text" required placeholder="Email" class="boxform">
+                    <input name="subject" type="text" required placeholder="Subject" class="boxform">
+                    <textarea name="msg" placeholder="Message" class="boxform"></textarea>
+                    <input name="submit" type="submit" value="Submit" id="submit" class="boxform">
                 </form>
                 
             </section>  
