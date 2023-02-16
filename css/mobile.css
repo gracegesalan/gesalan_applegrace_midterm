@@ -5,8 +5,9 @@
 .container {
     width: 320px;
     margin: 0 auto;
-    background-color: #00334E;
+    
     border: solid 1px #333;
+    text-align: center;
 }
 
 .grid {
@@ -19,6 +20,7 @@
 
 #main-header {
     display: grid;
+    background-color: #00334E;
 }
 
 #logo {
@@ -43,6 +45,189 @@
 
 /* 1. hero */
 
+
+#hero2 {
+    grid-column: 1/-1;
+    background-color: #00334E;
+    margin-bottom: 0;
+}
+
+.hero-image {
+    grid-column: 1/5;
+    width: 320px;
+    height: auto;
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+}
+
 #tag-line {
-    grid-row: 2/3;
+    font-size: 20px;
+    position: absolute;
+    grid-column: 1/-1;
+    height: 350px;
+    width: 290px;
+    margin: auto;
+    top: 0;
+    bottom: 280px;
+    left: 220px;
+    right: 0;
+    
+    
+    font-family: 'Henny Penny', cursive;
+    color:#00334e ;
+}
+
+/* 2. Give you the best */
+
+#themilk {
+    height: 790px;
+    background-color: #5588A3;
+    padding-top: 0;
+}
+
+#themilk h2 {
+    font-family: 'Henny Penny', cursive;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    grid-column: 1/-1;
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+#photo1 {
+    display: grid;
+    justify-items: center;
+}
+
+#photo1 img {
+    display: grid;
+    margin-top: 10px;
+    align-items: center;
+}
+
+#photo1 h4 {
+    color: white;
+    font-family: 'Henny Penny', cursive;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+#photo1 p {
+    font-family: 'Cherry Swash', cursive;
+    text-align: center;
+    color: white;
+    margin-top: 0;
+}
+
+/* photo 2 */
+
+#photo2 {
+    display: grid;
+    justify-items: center;
+}
+
+#photo2 img {
+    display: grid;
+    margin-top: 10px;
+    align-items: center;
+}
+
+#photo2 h4 {
+    color: white;
+    font-family: 'Henny Penny', cursive;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+#photo2 p {
+    font-family: 'Cherry Swash', cursive;
+    text-align: center;
+    color: white;
+    margin-top: 0;
+}
+
+/* photo 3 */
+
+#photo3 {
+    display: grid;
+    justify-items: center;
+}
+
+#photo3 img {
+    display: grid;
+    margin-top: 10px;
+    align-items: center;
+}
+
+#photo3 h4 {
+    color: white;
+    font-family: 'Henny Penny', cursive;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+#photo3 p {
+    font-family: 'Cherry Swash', cursive;
+    text-align: center;
+    color: white;
+    margin-top: 0;
+
+}
+
+/* 3. Story every can */
+
+#story {
+    height: 600px;
+    background-color: #00334E;
+}
+
+#story h2 {
+    color: white;
+    font-family: 'Henny Penny', cursive;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+#view-button {
+    background-color: #5588A3;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+#teamphoto {
+    align-items: center;
+}
+
+#teamphoto img {
+    margin-bottom: 40px;
+}
+
+/* 4. Video area */
+
+#video-section {
+    background-color: #5588A3;
+    height: 335px;
+    margin-top: 0px;
+}
+
+#video-section h2 {
+    color: white;
+    font-family: 'Henny Penny', cursive;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+#video-section p {
+    font-family: 'Cherry Swash', cursive;
+    text-align: center;
+    color: white;
+    margin-top: 0;
 }
