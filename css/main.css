@@ -383,6 +383,45 @@ h2 {
 
 
 
+<<<<<<< Updated upstream
 
 
+=======
+}
+
+
+/* 10. Contact Us */
+
+#contactphoto {
+  height: 373px;
+}
+
+#contactfill {
+  background-color: #5588A3;
+  height: 908px;
+  
+}
+
+#theform {
+  grid-column: 4/9;
+}
+
+#contactfill h2 {
+  font-size: 40px;
+}
+
+#nameform {
+  display: grid;
+  grid-column: 3/6;
+}
+
+#formsubmit {
+  background-color: #D9D78D;
+}
+
+.boxform {
+  border-radius: 30px;
+  border: none;
+}
+>>>>>>> Stashed changes
 

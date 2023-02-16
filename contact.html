@@ -28,6 +28,53 @@
                 </ul>       
             </nav>
         </header>
+        <main>
+            <section id="contactphoto" class="grid">
+                <h2 class="hidden">Swerve Cans</h2>
+                <img src="images/swerve_cans.jpg" alt="photo of swerve cans">
+            </section>
+
+            <section id="contactfill" class="grid">
+                <h2>We Value your Opinion</h2>
+                <form id="theform" action="email.php" method="POST" enctype="text/plain">
+                    
+                    <input id="name" name="fullName" type="text" required placeholder="Full Last Name" class="boxform">
+                    <input id="email" name="contactInfo" type="text" required placeholder="Email" class="boxform">
+                    <input id="subject" name="subject" type="text" required placeholder="Subject" class="boxform">
+                    <textarea id="message" name="msg" placeholder="White your comments here" class="boxform"></textarea>
+                    <input name="submit" type="submit" value="Send" class="boxform">
+                </form>
+                
+            </section>  
+
+        </main>
+
+        <footer>
+            <div id="footer-con">
+                <div>
+                    <div id="socials" class="grid">
+                        <ul>
+                            <li><img src="images/snapchat.svg" alt="snapchat logo" ></li>
+                            <li><img src="images/facebook.svg" alt="facebook logo" ></li>
+                            <li><img src="images/instagram.svg" alt="instagram logo" ></li>
+                            <li><img src="images/twitter.svg" alt="twiteer logo"></li>
+                        </ul>
+                    </div>
+
+                    <div id="nav-footer" class="grid">
+                        <ul>
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="#">SERVICES</a></li>
+                            <li><a href="#">ABOUT</a></li>
+                            <li><a href="#">TERMS</a></li>
+                            <li><a href="#">PRIVACY POLICY</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <p>Copyright © 2023 Swerve. All rights reserved. Presented by GesalanCreatives.</p>
+            </div>
+        </footer>
+
    </div>
 </body>
 </html>
