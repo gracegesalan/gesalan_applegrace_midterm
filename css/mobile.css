@@ -1,0 +1,48 @@
+.hidden {
+    display: none;
+}
+
+.container {
+    width: 320px;
+    margin: 0 auto;
+    background-color: #00334E;
+    border: solid 1px #333;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 58px);
+    grid-column-gap: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#main-header {
+    display: grid;
+}
+
+#logo {
+    width: 80px;
+    height: 80px;
+    grid-column: 1/2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.burger {
+    height: 5px;
+    display: grid;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+#mobile-nav {
+    grid-column: 4/-1;
+    padding-top: 25px;
+}
+
+/* 1. hero */
+
+#tag-line {
+    grid-row: 2/3;
+}
