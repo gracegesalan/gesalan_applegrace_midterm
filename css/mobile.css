@@ -22,6 +22,7 @@
 #main-header {
     display: grid;
     background-color: #00334E;
+    justify-items: center;
 }
 
 #logo {
@@ -111,6 +112,7 @@
 }
 
 /* 2. Give you the best */
+
 
 #themilk {
     height: 790px;
@@ -232,6 +234,14 @@
     margin-top: 20px;
 }
 
+#view-button2 {
+    background-color: #5588A3;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
 #teamphoto {
     align-items: center;
 }
@@ -241,6 +251,12 @@
 }
 
 /* 4. Video area */
+
+#thevideo iframe {
+    width: 100%;
+    height: 100%;
+    border: 0px;
+}
 
 #video-section {
     background-color: #5588A3;
@@ -279,6 +295,7 @@
     padding-top: 40px;
     font-size: 25px;
     letter-spacing: 2px;
+    margin-top: 0px;
 }
 
 #portrait1 img {
@@ -412,9 +429,6 @@
 
   /* 9. Contact form */
 
-  #thehero img {
-    margin-right: 10px;
-  }
 
   #contact-form {
     background-color: #5588A3;
