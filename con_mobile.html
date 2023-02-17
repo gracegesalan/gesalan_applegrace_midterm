@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Swerve - Flavored Milk Drink</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono&family=Cherry+Swash&family=Henny+Penny&family=Ribeye&display=swap" rel="stylesheet">
+
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/mobile.css" rel="stylesheet" >
 
@@ -13,7 +17,7 @@
 <body>
     <h1 class="hidden">Swerve - Flavored Milk Drink</h1>
     <div class="container">
-        <header>
+        <header id="main-header">
             <nav id="nav" class="grid">
                 <h2 class="hidden">Main Navigation</h2>
                 <input type="checkbox" id="hamburger">
@@ -25,7 +29,7 @@
                 
                 <div id="burger-con">
                     <ul>
-                        <li><a href="#">HOME</a></li>
+                        <li><a href="mobile.html">HOME</a></li>
                         <li><a href="#">PRODUCTS</a></li>
                         <li><a href="#">CONTACT US</a></li>
                         <li><a href="#">ABOUT US</a></li>
@@ -39,6 +43,26 @@
 
         </header>
         <main>
+            <section id="thehero" class="grid">
+                <h2 class="hidden">Swerve Cans</h2>
+                <img src="images_mobile/swerve_cans.jpg" alt="photo of swerve cans">
+            </section>
+
+            <section id="contact-form" class="grid">
+                <form action="email.php" method="POST" enctype="text/plain">
+                    <h2>We Value your Opinion</h2>
+                    <label> Name</label>
+                    <input name="firstName" type="text" placeholder="Name">
+                    <label>Email</label>
+                    <input name="email" type="text" placeholder="Email">
+                    <label>Subject</label>
+                    <input name="subject" type="text" required placeholder="Subject">
+                    <label>Message
+                    </label>
+                    <textarea name="msg" placeholder="Message"></textarea>
+                    <input name="submit" type="submit" value="SUBMIT">
+                </form>
+            </section>
 
         </main>
         <footer>
