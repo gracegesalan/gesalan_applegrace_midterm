@@ -409,3 +409,56 @@
     margin-right: 30px;
    list-style-type: none;
   }
+
+  /* 9. Contact form */
+
+  #thehero img {
+    margin-right: 10px;
+  }
+
+  #contact-form {
+    background-color: #5588A3;
+    height: 500px;
+  }
+  
+  #contact-form form {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  #contact-form h2 {
+    color: white;
+    font-family: 'Ribeye', cursive;
+    font-size: 30px;
+    letter-spacing: 2px;
+    
+  }
+  
+  #contact-form input, textarea {
+    padding: 0;
+    border: none;
+    border-radius:  5px;
+    background-color: #f7f7f7;
+    margin-bottom: 15px;
+    font: inherit;
+  }
+  
+  #contact-form textarea {
+    height: 50px;
+  }
+  
+  #contact-form label {
+    color: white;
+    font-size: 20px;
+    font-family: 'Cherry Swash', cursive;
+  }
+  
+  #contact-form input[type="submit"] {
+    width: 272px;
+    padding: 16px 32px;
+    background-color: #D9D78D;
+    color: #00334e;
+    border: none;
+    
+  }
